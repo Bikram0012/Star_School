@@ -8,6 +8,13 @@ body {
     height: 1000px;
 }
 
+/* PC screen */
+@media only screen and (min-width: 1140px) {
+  .container{
+   width: 1000px;
+  } 
+}
+
 .main {
     background-color: red;
     height: 50px;
@@ -776,4 +783,5 @@ img {
     display: inline-block;
     font-size: 1.6rem;
     margin-left: 1rem;
+
 } 
